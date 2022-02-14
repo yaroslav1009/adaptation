@@ -1,0 +1,117 @@
+.footer__color {
+    background: #EEEEEE;
+}
+
+.footer__firstblock {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 0;
+    /* align-items: center; */
+}
+
+.footer__firstblock__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__firstblock__card__case {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 25px;
+    color: #000000;
+}
+
+.footer__firstblock__card img {
+    margin-bottom: 24px;
+}
+
+.footer__firstblock__card__text {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    width: 290px;
+    padding-bottom: 15px;
+}
+
+.footer__firstblock__card__link {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer__firstblock__card__link a {
+    color: #000000;
+    display: block;
+}
+
+.footer__firstblock__list {
+    display: flex;
+}
+
+.footer__firstblock__listcard {
+    height: 241px;
+    width: 190px;
+    margin: 0 10px;
+}
+
+.footer__firstblock__listcard__box {
+    font-family: "Graphik LC TT";
+    padding-bottom: 15px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.footer__firstblock__listcard  a{
+    color: #000000;
+    display: block;
+}
+
+.footer__firstblock__listcard__box__name {
+    font-family: "Graphik LC TT";
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.footer__secondblock {
+    padding: 50px 60px 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__secondblock__lokalise {
+    display: flex;
+}
+
+.footer__secondblock__lokalise__text {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.footer__secondblock__lokalise__2001 {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}

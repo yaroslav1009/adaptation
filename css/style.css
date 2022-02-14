@@ -1,0 +1,783 @@
+@font-face {
+    font-family: "Graphik LC TT";
+    src: url(../fonts/GraphikLCG-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/GraphikLCG-Semibold.ttf);
+}
+
+.fix-size {
+    margin: 0 auto;
+    max-width: 1260px;
+}
+
+.hr-line {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.hr-line__black {
+    border-bottom: 1px solid black;
+}
+
+@media (max-width: 1200px) {
+    .fix-size {
+        max-width: 970px;
+    }
+
+    .nav__image {
+        margin-bottom: 15px;
+    }
+
+    .header__menu__item {
+        font-size: 20px;
+    }
+
+    .buttons__log {
+        width: 151px;
+        height: 60px;
+    }
+
+    .buttons__free {
+        width: 151px;
+        height: 60px;
+    }
+    
+    .nav {
+        flex-direction: column;
+    }
+
+    .main__flex {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .main__row {
+        width: auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main__localization {
+        padding-top: 45px;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .main__translation {
+        font-size: 20px;
+    }
+
+    .main__smalltext {
+        padding-bottom: 80px;
+    }
+
+    .main__preferred__1500 {
+        margin: 0 auto;
+    }
+
+    .main__preferred__imageblock {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 990px;
+    }
+
+    .main__control__localization__process {
+        width: auto;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .main__control__localization__collaborate {
+        text-align: center;
+    }
+
+    .main__control__localization__start {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .main__control {
+        flex-direction: column-reverse;
+        padding-bottom: 100px;
+    }
+
+    .main__control__last {
+        flex-direction: column;
+    }
+
+    .main__control__localization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main_control__media {
+        flex-direction: column;
+    }
+
+    .main__imageproject img{
+        padding-bottom: 20px;
+    }
+
+
+    .main__imageproject__images {
+        background-image: url(../img/bcground.png);
+        padding: 50px;
+    }
+
+
+    .main__preferred__imageblock {
+        width: 950px;
+    }
+
+    .main__productivity__list {
+        width: 450px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .main__productivity__list__card {
+        height: 580px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .main__productivity {
+        padding-top: 50px;
+    }
+
+    .main__quoteblock {
+        display: flex;
+        justify-content: center;
+        padding: 53px 0 105px 0;
+        display: flex;
+    }
+
+    .main__quoteblock__text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        width: auto;
+    }
+
+    .main__color__cake {
+        background-color: #DABC98;
+        padding: 35px 0;
+    }
+
+    .main__quoteblock__row__quote {
+        width: 500px;
+    }
+
+    .main__question__list {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main__question__card__info {
+        width: 340px;
+        height: 100px;
+    }
+
+    .main__question {
+        background: #FFF8E4;
+        padding: 53px 0 40px 0;
+    }
+
+    .main__cake__list {
+        border: none;
+        margin: 0 auto;
+    }
+
+    .main__cake {
+        display: block;
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .main__cake__translation {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .main__pigeon img {
+        width: 800px;
+    }
+
+    .main__pigeon__tools {
+        font-family: "Graphik LC TT";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 55px;
+        line-height: 63px;
+        text-align: center;
+        color: #000000;
+        width: 713px;
+        margin-bottom: 20px;
+    }
+
+    .main__pigeon {
+        padding: 70px 0;
+    }
+
+    .main__wait {
+        padding: 70px 0 70px 0;
+    }
+
+    .main__cake__translation__text {
+        margin: 0 0 0 61px;
+    }
+
+    .footer__firstblock__card__text {
+        padding-bottom: 32px;
+    }
+
+    .footer__firstblock__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .footer__firstblock__card {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .footer__firstblock__listcard {
+        margin: 50px 10px;
+    }
+
+    .footer__firstblock {
+        flex-direction: column;
+    }
+
+    .footer__secondblock__lokalise {
+        width: 369px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+
+    .footer__secondblock {
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 970px) {
+    .fix-size {
+        max-width: 750px;
+    }  
+
+    .nav__image {
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .nav__image img {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .header__menu {
+        width: 700px;
+    }
+
+    .header__menu__item {
+        font-size: 25px;
+    }
+
+    .main__image {
+        width: 700px;
+        height: 550px;
+    }
+
+    .main__flex {
+        flex-direction: column-reverse;
+    }
+
+    .main__row {
+        width: 450px;
+    }
+
+    .main__localization {
+        text-align: center;
+    }
+
+    .main__translation {
+        text-align: center;
+        width: 500px;
+    }
+
+    .main__buttons {
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .main__smalltext {
+        text-align: center;
+    }
+
+    .main__preferred {
+        padding: 20px;
+    }
+
+    .main__preferred__imageblock li {
+        margin-right: 50px;
+        padding-bottom: 20px;
+    }
+
+    .main__preferred__imageblock {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 750px;
+    }
+
+
+    .main__imageproject img {
+        width: 500px;
+        height: 500px;
+        padding: 20px 0;
+    }
+
+    .main__control {
+        padding: 0 0 100px 0;
+        flex-direction: column-reverse;
+    }
+
+    .main_control__media {
+        flex-direction: column;
+    }
+
+    .main__control__last {
+        flex-direction: column
+    }
+
+    .main__control__localization__process {
+        width: auto;
+        text-align: center;
+    }
+
+    .main__control__localization__collaborate {
+        text-align: center;
+    }
+
+    .main__control__localization {
+        width: 400px;
+    }
+
+    .main__imageproject__images {
+        background-image: url(../img/bcground.png);
+        padding: 30px;
+    }
+
+    .main__control__localization__start {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .main__imageproject__images img {
+        display: block;
+        margin: 20px auto;
+    }
+
+
+    .main__preferred__imageblock {
+        width: 730px;
+    }
+
+    .main__quoteblock__text {
+        text-align: center;
+    }
+
+    .main__quoteblock {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .main__quoteblock__row img {
+        padding-bottom: 20px;
+    }
+
+    .main__pigeon img {
+        width: 500px;
+    }
+
+    .main__pigeon__tools {
+        font-size: 50px;
+        width: 500px;
+    }
+
+    .main__wait__name {
+        font-size: 50px;
+        width: 500px;
+    }
+
+    .footer__firstblock__list {
+        justify-content: space-between;
+        width: 500px;
+    }
+}
+
+@media (max-width: 780px) {
+    .fix-size {
+        max-width: 590px;
+    }
+
+    .nav__image {
+        margin-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .main__control__localization__process {
+        width: 300px;
+        font-size: 40px;
+    }
+
+    .main__productivity__list__card {
+        width: 300px;
+        padding: 5px;
+    }
+
+    .nav__image {
+        width: 0;
+    }
+
+    .nav__image img {
+        width: 250px;
+        margin-bottom: 10px;
+    }
+
+    .header__menu {
+        width: 0;
+        flex-direction: column;
+    }
+
+    .header__menu__item {
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 5px;
+        width: 232px;
+    }
+
+    .buttons__log {
+        width: 120px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    .buttons__free {
+        width: 120px;
+        height: 70px;
+        font-size: 15px;
+    }
+
+    .main__row {
+        width: 300px;
+    }
+
+    .main__buttons {
+        width: 260px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    .main__preferred__1500 {
+        width: 300px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .main__buttons__log {
+        width: 120px;
+        height: 40px;
+    }
+
+    .main__buttons__free {
+        width: 120px;
+        height: 40px;
+    }
+
+    .main__localization {
+        font-size: 25px;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .main__translation {
+        text-align: center;
+        width: 300px;
+        margin: 0 auto;
+        font-size: 20px;
+    }
+
+    .main__smalltext {
+        padding-bottom: 80px;
+    }
+
+
+    .main__preferred {
+        padding: 50px 0 60px 0;
+    }
+
+    .main__control__localization__collaborate {
+        width: 300px;
+        padding: 5px;
+    }
+
+    .main__imageproject__images img {
+        display: block;
+        width: 280px;
+        height: 180px;
+        padding: 0;
+    }
+
+    .main__imageproject__images {
+        background-image: url(../img/bcground.png);
+        padding: 0;
+    }
+
+    .main__question__what {
+        font-size: 31px;
+        line-height: 45px;
+    }
+
+    .main__question__card__info {
+        width: 300px;
+        padding: 5px;
+        height: 100px;
+    }
+
+    .main__preferred__imageblock {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .main__quoteblock {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .main__quoteblock__row__quote {
+        width: 300px;
+    }
+
+    .main__quoteblock__row__quote {
+        font-size: 20px;
+    }
+
+    .main__quoteblock__text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        width: 300px;
+    }
+
+    .main__productivity__list {
+        width: 300px;
+    }
+
+    .main__productivity__list__card__info {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .main__image {
+        width: 300px;
+        height: 200px;
+    }
+
+    .main__cake__translation__text {
+        width: 260px;
+    }
+
+    .main__pigeon__tools {
+        font-size: 40px;
+        width: auto;
+        line-height: 40px;
+    }
+
+    .main__pigeon__ease {
+        width: auto;
+    }
+
+    .main__pigeon {
+        margin: 0 auto;
+        width: 300px;
+    }
+
+    .main__pigeon img {
+        width: 300px;
+    }
+
+
+    .main__cake {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .main__cake__list {
+        flex-direction: column;
+        width: 300px;
+    }
+
+    .main__cake__translation {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .main__imageproject img {
+        width: 300px;
+        height: 300px;
+        padding: 20px 0;
+    }
+
+    .main__cake__translation__text {
+        width: 260px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .main__wait {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .main__wait__name {
+        font-size: 40px;
+        width: auto;
+        line-height: 40px;
+    }
+
+    .main__wait__text {
+        width: auto;
+    }
+
+    .main__productivity__nameblock {
+        font-size: 30px;
+        line-height: 47px;
+    }
+
+    .main__preferred__imageblock {
+        flex-direction: column;
+    }
+
+
+    .main__preferred__imageblock li {
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .main__question__list {
+        padding-bottom: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__firstblock {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer__firstblock__card {
+        text-align: center;
+    }
+
+    .footer__secondblock__lokalise__2001 {
+        font-family: "Graphik LC TT";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .footer__firstblock__card img {
+        margin-bottom: 24px;
+        width: 280px;
+        margin: 0 auto;
+    }
+
+    .footer__firstblock__card__text {
+        padding-bottom: 32px;
+        width: auto;
+    }
+
+    .footer__firstblock__listcard {
+        margin: 50px 10px;
+        height: auto;
+        width: auto;
+    }
+
+    .footer__firstblock__list {
+        width: auto;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+    }
+
+    .footer__firstblock__listcard__box {
+        font-size: 25px;
+        padding-bottom: 0;
+        line-height: 30px;
+    }
+
+    .footer__firstblock__listcard__box__name {
+        font-size: 26px;
+    }
+
+    .footer__secondblock {
+        display: flex;
+        margin: 0 auto;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__secondblock__lokalise {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        margin-bottom: 10px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__secondblock__lokalise img{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .main__control__localization {
+        width: auto;
+    }
+
+    .main__quoteblock__row img {
+        padding-bottom: 20px;
+        width: 290px;
+    }
+
+    .main__productivity__list__card {
+        width: auto;
+        padding: 5px;
+        height: auto;
+    }
+}

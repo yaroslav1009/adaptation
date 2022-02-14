@@ -1,0 +1,500 @@
+.main__row {
+    display: flex;
+    flex-direction: column;
+    padding-right: 5px;
+    justify-content: center;
+    width: 1311px;
+}
+
+.main__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__image {
+    width: 759px;
+    height: 529px;
+}
+
+.main__localization {
+    font-family: "Graphik LC TT";
+    font-weight: 600;
+    padding-top: 129px;
+    padding-bottom: 50px;
+    font-size: 65px;
+    line-height: 70px;
+    color: #000000;
+    width: 522px;
+}
+
+.main__translation {
+    font-family: "Graphik LC TT";
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    width: 471px;
+    padding-bottom: 50px;
+}
+
+.main__smalltext {
+    font-family: "Graphik LC TT";
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 170px;
+}
+
+.main__buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    padding-bottom: 25px;
+}
+
+.main__buttons__free {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF6336;
+    border-radius: 0px;
+    width: 160px;
+    height: 60px;
+}
+
+.main__buttons__log {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 0px;
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 45px;
+    background-color: white;
+    text-align: center;
+    color: #000000;
+    width: 160px;
+    height: 60px;
+}
+
+.main__preferred {
+    background: #FF9C7D;
+    display: flex;
+    justify-content: center;
+    padding: 108px 0 120px 0;
+    margin-bottom: 90px;
+}
+
+.main__preferred__1500 {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    width: 700px;
+    margin: 0 270px 0 320px;
+}
+
+.main__preferred__imageblock {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 1260px;
+    padding-top: 80px;
+}
+
+.main__preferred__imageblock li {
+    margin-right: 100px;
+}
+
+.main__control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 250px 0;
+}
+
+.main__control__localization__process {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    width: 493px;
+    padding-bottom: 30px;
+}
+
+.main__control__localization__collaborate {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    width: 520px;
+    padding-bottom: 30px;
+}
+
+.main__control__localization__start {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.main__control__localization__start__link {
+    color: #000000;
+}
+
+.main__control__localization__collaborate__span {
+    border-bottom: 1px solid black;
+}
+
+.main__conrol__image {
+    position: relative;
+    height: 200px;
+}
+
+.main__imageproject__images {
+    background-image: url(../img/bcground.png);
+    padding: 119px 66px 158px 66px;
+}
+
+.main__control__last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 150px 0;
+}
+
+.main__question {
+    background: #FFF8E4;
+    padding: 120px 0 75px 0;
+}
+
+.main__question__what {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 75px;
+    line-height: 60px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.main__question__list {
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main__question__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__question__card__name {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    padding-bottom: 20px;
+
+    color: #000000;
+}
+
+.main__question__card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__question__card__info {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    width: 330px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.main__productivity {
+    padding-top: 145px;
+}
+
+.main__productivity__nameblock {
+    font-family: "Graphik LC TT";
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 75px;
+}
+
+.main__productivity__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1290px;
+    margin-bottom: 187px;
+}
+
+.main__productivity__list__card {
+    height: 580px;
+}
+
+.main__question__card__image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 21px;
+    height: 201px;
+}
+
+.main__productivity__list__card__info {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    width: 410px;
+    margin-bottom: 25px;
+}
+
+.main__productivity__list__card__name {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.main__productivity__list__card__link {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.main__quoteblock {
+    display: flex;
+    justify-content: space-between;
+    padding: 53px 0 105px 0;
+    display: flex;
+}
+
+.main__color {
+    background: #C9E8F2;
+}
+
+.main__quoteblock__text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    width: 895px;
+}
+
+.main__quoteblock__row {
+    display: flex;
+}
+
+.main__quoteblock__row__quote {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    width: 895px;
+    padding-bottom: 23px;
+}
+
+.main__quoteblock__row__name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    padding-bottom: 5px;
+}
+
+.main__color__cake {
+    background-color: #DABC98;
+    padding: 80px 0;
+}
+
+.main__cake {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.main__cake__translation {
+    display: flex;
+    align-items: center;
+}
+
+.main__cake__translation__text {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    width: 461px;
+    margin: 0 124px 0 61px;
+}
+
+.main__cake__list {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid black;
+    width: 500px;
+}
+
+.main__cake__padding {
+    margin: 0 70px;
+}
+
+.main__cake__card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 128px;
+}
+
+.main__cake__card__text {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+
+    color: #000000;
+}
+
+.main__cake__card img {
+    margin-bottom: 15px;
+}
+
+.main__pigeon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 165px 0;
+}
+
+.main__pigeon__tools {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    width: 791px;
+}
+
+.main__pigeon__ease {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 25px;
+    width: 539px;
+}
+
+.main__pigeon__button {
+    background: #FF6336;
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 32px;
+    padding: 0 20px;
+    width: 193px;
+}
+
+.main__color__wait {
+    background: #FF9C7D;
+}
+
+.main__wait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 119px 0 161px 0;
+}
+
+.main__wait__name {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 29px;
+    width: 784px;
+}
+
+.main__wait__text {
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 54px;
+    width: 438px;
+}
+
+.main__wait__button {
+    background: #000000;
+    width: 160px;
+    font-family: "Graphik LC TT";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    text-align: center;
+    padding: 0 40px;
+    color: #FFFFFF;
+}
